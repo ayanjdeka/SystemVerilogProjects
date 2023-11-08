@@ -1,0 +1,211 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ayanj/Projects/8BitMultiplier/simulation/modelsim
+vcontrol
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1677544744
+!i10b 1
+!s100 LUA59iibAf>NFoZH7N?bE1
+IA;f62oO?ZPNia_PU6C:=_0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 control_sv_unit
+S1
+R0
+w1677544735
+8C:/Miscallaneous/lab4code/control.sv
+FC:/Miscallaneous/lab4code/control.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1677544744.000000
+!s107 C:/Miscallaneous/lab4code/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Miscallaneous/lab4code|C:/Miscallaneous/lab4code/control.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Miscallaneous/lab4code
+Z8 tCvgOpt 0
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 ^geJ<h7il:8ihzzU:A`D>1
+IL?=3eB4CFiXI<QRo7L5B71
+R3
+Z9 !s105 nine_bit_adder_sv_unit
+S1
+R0
+Z10 w1676618788
+Z11 8C:/Miscallaneous/lab4code/nine_bit_adder.sv
+Z12 FC:/Miscallaneous/lab4code/nine_bit_adder.sv
+L0 33
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 C:/Miscallaneous/lab4code/nine_bit_adder.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Miscallaneous/lab4code|C:/Miscallaneous/lab4code/nine_bit_adder.sv|
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 ^DddjRd7Wla]U<SlP;mT@0
+IbF8JA;I>EQ35>Rab:5;Qb1
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+Z15 w1676618787
+8C:/Miscallaneous/lab4code/HexDriver.sv
+FC:/Miscallaneous/lab4code/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Miscallaneous/lab4code/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Miscallaneous/lab4code|C:/Miscallaneous/lab4code/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vmultiplier
+R1
+Z16 !s110 1677544745
+!i10b 1
+!s100 L2i5kl3XI_d6SRKA<8ka51
+IT^1zXlE3VQZ?G:JjICOk`0
+R3
+!s105 multiplier_sv_unit
+S1
+R0
+R15
+8C:/Miscallaneous/lab4code/multiplier.sv
+FC:/Miscallaneous/lab4code/multiplier.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z17 !s108 1677544745.000000
+!s107 C:/Miscallaneous/lab4code/multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Miscallaneous/lab4code|C:/Miscallaneous/lab4code/multiplier.sv|
+!i113 1
+R6
+R7
+R8
+vnine_bit_adder
+R1
+R2
+!i10b 1
+!s100 5jWU?4Z;50T`eXf4dh`XR1
+IVaNTLL;X7]dH?M2KA]Fk?3
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8
+vreg_4
+R1
+R2
+!i10b 1
+!s100 9Q;M_bZYcOBn:M<I6<c8k0
+IQ_@YIL2KUn]Tc1M?aE1AX0
+R3
+!s105 Reg_4_sv_unit
+S1
+R0
+R10
+8C:/Miscallaneous/lab4code/Reg_4.sv
+FC:/Miscallaneous/lab4code/Reg_4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Miscallaneous/lab4code/Reg_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Miscallaneous/lab4code|C:/Miscallaneous/lab4code/Reg_4.sv|
+!i113 1
+R6
+R7
+R8
+vregister_unit
+R1
+R16
+!i10b 1
+!s100 JA>HAkBaWHDYeODQ1dC@W2
+I:G<fB1jMY19VEJ^?8ek6[1
+R3
+!s105 Register_unit_sv_unit
+S1
+R0
+R10
+8C:/Miscallaneous/lab4code/Register_unit.sv
+FC:/Miscallaneous/lab4code/Register_unit.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Miscallaneous/lab4code/Register_unit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Miscallaneous/lab4code|C:/Miscallaneous/lab4code/Register_unit.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+R16
+!i10b 1
+!s100 9Tk2IT2B6Am3SSWC56j<n3
+I[SiMC]4UMMB<[NMDP6<ck2
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1676663042
+8C:/Users/ayanj/Projects/8BitMultiplier/../../../../Miscallaneous/lab4code/testbench.sv
+FC:/Users/ayanj/Projects/8BitMultiplier/../../../../Miscallaneous/lab4code/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/ayanj/Projects/8BitMultiplier/../../../../Miscallaneous/lab4code/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ayanj/Projects/8BitMultiplier/../../../../Miscallaneous/lab4code|C:/Users/ayanj/Projects/8BitMultiplier/../../../../Miscallaneous/lab4code/testbench.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/ayanj/Projects/8BitMultiplier/../../../../Miscallaneous/lab4code
+R8

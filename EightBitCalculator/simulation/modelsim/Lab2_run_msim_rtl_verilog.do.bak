@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/Synchronizers.sv}
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/Router.sv}
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/Reg_4.sv}
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/HexDriver.sv}
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/Control.sv}
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/compute.sv}
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/Register_unit.sv}
+vlog -sv -work work +incdir+C:/Users/ayanj/Downloads/code {C:/Users/ayanj/Downloads/code/Processor.sv}
+

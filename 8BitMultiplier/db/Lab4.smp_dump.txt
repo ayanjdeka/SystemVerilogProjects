@@ -1,0 +1,21 @@
+
+State Machine - |multiplier|control:control_unit|curr_state
+Name curr_state.I_Shift curr_state.H_Shift curr_state.G_Shift curr_state.F_Shift curr_state.E_Shift curr_state.D_Shift curr_state.C_Shift curr_state.B_Shift curr_state.J curr_state.I curr_state.H curr_state.G curr_state.F curr_state.E curr_state.D curr_state.C curr_state.B curr_state.A 
+curr_state.A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+curr_state.B 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+curr_state.C 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+curr_state.D 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+curr_state.E 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+curr_state.F 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+curr_state.G 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+curr_state.H 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+curr_state.I 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+curr_state.J 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+curr_state.B_Shift 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+curr_state.C_Shift 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.D_Shift 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.E_Shift 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.F_Shift 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.G_Shift 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.H_Shift 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.I_Shift 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
